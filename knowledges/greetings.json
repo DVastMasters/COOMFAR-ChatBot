@@ -1,0 +1,20 @@
+{
+    "knowledges": [
+        {
+            "questions": ["oi", "eae", "ola", "olá", "alo", "tudo bem?", "tudo bom?", "td bem?", "td bom?"],
+            "answer": "Ola, eu sou o robo de atendimento da COOMFAR! Estou a sua disposicao..."
+        },
+        {
+            "questions": ["bom dia"],
+            "answer": "Bom dia! Eu sou o robo de atendimento da COOMFAR! Estou a sua disposicao..."
+        },
+        {
+            "questions": ["boa tarde"],
+            "answer": "Boa tarde! Eu sou o robo de atendimento da COOMFAR! Estou a sua disposicao..."
+        },
+        {
+            "questions": ["boa noite"],
+            "answer": "Boa noite! Eu sou o robo de atendimento da COOMFAR! Estou a sua disposicao..."
+        }
+    ]
+}
