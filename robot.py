@@ -20,11 +20,11 @@ def compare_messages(user_message, possible_message):
 
 def start():
     robot = ChatBot("COOMFAR Robot",
-                    read_only=True,
-                    statement_comparion_function=compare_messages,
+                    read_only=True,                    
                     logic_adapters=[
                         {
-                            "import_path": "chatterbot.logic.BestMatch"
+                            "import_path": "chatterbot.logic.BestMatch",
+                            "statement_comparion_function": compare_messages
                         }
                     ])
     
