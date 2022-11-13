@@ -78,7 +78,7 @@ class TestFaq(unittest.TestCase):
             )
                     
     
-    def test_quais_produtos(self):
+    def test_quais_produtos_produz(self):
         questions = ["quais produtos a coomfar produz?", "quais tipos de produtos tem na coomfar?", "o que a coomfar produz?", "liste os tipos de produtos da coomfar"]
         
         for question in questions:                    
@@ -92,7 +92,7 @@ class TestFaq(unittest.TestCase):
             )
                     
     
-    def test_quais_produtos(self):
+    def test_quais_produtos_vende(self):
         questions = ["quais produtos estão disponíveis para venda no momento?", "tá vendendo o que?", "o que tem pra vender?", "liste os produtos que estão a venda"]
         
         for question in questions:                    
